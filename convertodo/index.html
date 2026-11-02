@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Conversor de unidades online gratis | Longitud, peso, temperatura y más</title>
+<meta name="description" content="Conversor de unidades gratis y rápido: longitud, peso, temperatura, volumen, velocidad, datos y más. Además calculadora de porcentajes y días entre fechas.">
+<meta name="theme-color" content="#4f46e5">
+<link rel="stylesheet" href="style.css">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3083981830192442"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap top-in">
+    <a class="logo" href="/">Conver<span>Todo</span></a>
+    <nav>
+      <a href="#unidades">Unidades</a>
+      <a href="#porcentaje">Porcentajes</a>
+      <a href="#fechas">Fechas</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section class="hero">
+    <h1>Conversor de unidades gratis</h1>
+    <p>Convertí longitud, peso, temperatura, volumen y más al instante. Sin registro, sin descargas.</p>
+  </section>
+
+  <div class="ad-slot" data-slot="" aria-label="Publicidad"></div>
+
+  <section class="card" id="unidades">
+    <h2>Conversor de unidades</h2>
+    <div class="chips" id="categorias" role="tablist"></div>
+    <div class="grid-conv">
+      <label>Valor
+        <input id="valor" type="number" inputmode="decimal" value="1" step="any">
+      </label>
+      <label>De
+        <select id="desde"></select>
+      </label>
+      <button id="invertir" class="swap" type="button" aria-label="Invertir unidades">⇄</button>
+      <label>A
+        <select id="hasta"></select>
+      </label>
+    </div>
+    <div class="result" id="resultado" aria-live="polite"></div>
+    <div class="table-wrap">
+      <table id="tabla"></table>
+    </div>
+  </section>
+
+  <div class="ad-slot" data-slot="" aria-label="Publicidad"></div>
+
+  <section class="card" id="porcentaje">
+    <h2>Calculadora de porcentajes</h2>
+    <div class="pct">
+      <div class="pct-row">
+        <span>¿Cuánto es el</span>
+        <input id="p1a" type="number" step="any" value="15">
+        <span>% de</span>
+        <input id="p1b" type="number" step="any" value="200">
+        <span>?</span>
+        <strong id="p1r" class="out">30</strong>
+      </div>
+      <div class="pct-row">
+        <input id="p2a" type="number" step="any" value="50">
+        <span>es qué % de</span>
+        <input id="p2b" type="number" step="any" value="200">
+        <span>?</span>
+        <strong id="p2r" class="out">25%</strong>
+      </div>
+      <div class="pct-row">
+        <span>Aumentar</span>
+        <input id="p3a" type="number" step="any" value="100">
+        <span>un</span>
+        <input id="p3b" type="number" step="any" value="21">
+        <span>% =</span>
+        <strong id="p3r" class="out">121</strong>
+      </div>
+      <div class="pct-row">
+        <span>Descontar</span>
+        <input id="p4a" type="number" step="any" value="100">
+        <span>un</span>
+        <input id="p4b" type="number" step="any" value="20">
+        <span>% =</span>
+        <strong id="p4r" class="out">80</strong>
+      </div>
+    </div>
+  </section>
+
+  <section class="card" id="fechas">
+    <h2>Días entre dos fechas</h2>
+    <div class="grid-dates">
+      <label>Desde
+        <input id="f1" type="date">
+      </label>
+      <label>Hasta
+        <input id="f2" type="date">
+      </label>
+    </div>
+    <div class="result" id="fres"></div>
+  </section>
+
+  <div class="ad-slot" data-slot="" aria-label="Publicidad"></div>
+
+  <section class="card texto">
+    <h2>Preguntas frecuentes</h2>
+    <h3>¿Cómo convierto de Celsius a Fahrenheit?</h3>
+    <p>Multiplicá los grados Celsius por 9/5 y sumá 32. Por ejemplo, 25 °C equivalen a 77 °F. Con el conversor lo hacés en un clic eligiendo la categoría Temperatura.</p>
+    <h3>¿Cuántos kilómetros son una milla?</h3>
+    <p>Una milla equivale a 1,609344 kilómetros. Elegí Longitud, seleccioná Milla en "De" y Kilómetro en "A".</p>
+    <h3>¿Cuántos MB tiene un GB?</h3>
+    <p>En el sistema binario usado por la mayoría de los sistemas operativos, 1 GB son 1024 MB. El conversor de Datos usa esa equivalencia.</p>
+    <h3>¿Es gratis?</h3>
+    <p>Sí, todas las herramientas son gratuitas y funcionan directamente en tu navegador, desde la computadora o el celular.</p>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <p>© <span id="anio"></span> ConverTodo · <a href="privacidad.html">Política de privacidad</a></p>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
